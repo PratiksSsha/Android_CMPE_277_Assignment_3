@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/getUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:ems="5">
+    </EditText>
+
+    <Button
+        android:id="@+id/launchUrl"
+        android:layout_width="164dp"
+        android:layout_height="45dp"
+        android:text="LAUNCH Url" />
+
+
+    <EditText
+        android:id="@+id/getContact"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:ems="5" />
+
+    <Button
+        android:id="@+id/connectCall"
+        android:layout_width="167dp"
+        android:layout_height="45dp"
+        android:text="CALL" />
+</LinearLayout>
